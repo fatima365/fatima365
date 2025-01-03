@@ -1,0 +1,7 @@
+#output variable
+a="beautifull"
+b="awesome"
+c="fantastic"
+
+
+print(a,b,c)
