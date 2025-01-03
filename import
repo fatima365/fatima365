@@ -1,0 +1,13 @@
+import math
+
+x = float(input("Please enter a number:"))
+square_root=math.sqrt(x)
+
+print(square_root)
+#min/max
+x=min(15,10,40)
+y=max(15,10,30)
+print(x)
+print(y)
+#power
+x = pow(4,5)
