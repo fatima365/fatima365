@@ -1,0 +1,15 @@
+import pyautogui
+import os
+
+file_path = '00-00-00_00-00-00.jpg'
+if not os.path.isfile(file_path):
+    print(f"File not found: {file_path}")
+else:
+    try:
+        location = pyautogui.locateOnScreen(file_path, confidence=0.8)
+        if location:
+            print(f"Image found at {location}")
+        else:
+            print("Image not found on the screen.")
+    except Exception as e:
+        print(f"Error: {e}")
