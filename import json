@@ -1,0 +1,27 @@
+{
+    "Personal Information":
+    [
+        {"Name": "Fatima",
+        "Age": 18,
+        "Car": "Honda"
+    
+    },
+    {"Name": "Ayesha",
+        "Age": 19,
+        "Car": "Toyato"
+    }
+    ]
+}
+
+
+import json
+
+with open("file.json", "r") as file:
+    data = json.load(file)
+
+personal_information = data["Personal Information"]
+
+for personal in  personal_information:
+    print(personal["Name"])
+    print(personal["age"])
+    print(personal["class"])
