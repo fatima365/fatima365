@@ -54,6 +54,3 @@ pyautogui.press("enter")
 time.sleep(2)
 
 print("form are submit")
-(this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
