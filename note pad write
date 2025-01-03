@@ -1,0 +1,14 @@
+import pyautogui
+import time
+
+string ='''It seems you've highlighted the various tasks LLMs 
+can perform! Here's a slightly more organized and formatted 
+version of the list for better readability:
+'''
+time.sleep(15)
+
+
+
+print(pyautogui.position())
+
+print(pyautogui.click(x=293, y=74))
