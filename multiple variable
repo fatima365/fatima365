@@ -1,0 +1,7 @@
+#one value to multiple variable
+a = b = c = "space"
+   
+
+print(a)
+print(b)
+print(c)
