@@ -1,0 +1,9 @@
+#sort list
+thislist=[11,10,2,5,4,8]
+thislist.sort()
+print(thislist)
+#reverse sort list
+sortline=[10,11,12,13,114,15,16,17,18,19]
+sortline.sort(reverse=True)
+print(sortline)
+
