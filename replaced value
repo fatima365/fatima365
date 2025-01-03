@@ -1,0 +1,29 @@
+import pyautogui
+import time
+
+values_to_replace = ["CorelDRAW", "valueable", "world:"]
+new_value = "Replaced Value"
+time.sleep(3)
+
+for word in values_to_replace:
+    pyautogui.hotkey('ctrl','h')
+    time.sleep(1) 
+    
+    pyautogui.write(word)
+    time.sleep(1) 
+
+    pyautogui.press('tab')
+    time.sleep(1)   
+    pyautogui.write(new_value)
+    time.sleep(1) 
+    pyautogui.press('tab')
+    time.sleep(1) 
+    pyautogui.press('tab')
+    time.sleep(1) 
+    pyautogui.press('tab')
+    time.sleep(1) 
+    pyautogui.press('enter')
+    time.sleep(1)
+    pyautogui.press('enter')
+    time.sleep(1)
+    pyautogui.press('esc')
