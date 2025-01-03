@@ -1,0 +1,11 @@
+import pyautogui
+import time
+
+string = '''
+python is a programming language in world
+'''
+
+time.sleep(5)
+
+
+print(pyautogui.position())
