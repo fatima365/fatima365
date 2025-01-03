@@ -1,0 +1,15 @@
+a = int(input("enter your marks"))
+b = int(input("enter your marks"))
+c = int(input("enter your marks"))
+d = int(input("enter your marks"))
+e = int(input("enter your marks"))
+if a>=90:
+    print("Grade A")
+elif b>= 80:
+    print("Grade : B")
+elif c>= 70:
+    print("Grade : C")
+elif  d>= 60:
+    print("Grade : D")
+else:
+    print("Grade : F")
