@@ -1,0 +1,5 @@
+a = float(input("please enter a number"))
+b = float(input("please enter a number"))
+c = input("please enter +,-,*,/")
+if c =="+":
+     print(a+b)
