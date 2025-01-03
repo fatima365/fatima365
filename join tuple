@@ -1,0 +1,6 @@
+tuple1="amna","ajwa","zainab"
+tuple2=1,2,3,4,5
+
+tuple3=tuple1+tuple2
+
+print(tuple3)
