@@ -1,0 +1,7 @@
+#extend list
+
+list1=['cat','dog','hen']
+list2=[1,2,3,4,5,6]
+
+list2.extend(list1)
+print(list2)
