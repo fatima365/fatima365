@@ -1,0 +1,10 @@
+#many value to multiple variable
+a = "out"
+b = "in"
+c = "drive"
+
+
+
+print(a)
+print(b)
+print(c)
