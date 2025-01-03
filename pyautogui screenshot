@@ -1,0 +1,28 @@
+import pyautogui
+from datetime import datetime
+import os
+import time
+import webbrowser
+
+webbrowser.open('https://demoqa.com/automation-practice-form')
+time.sleep(2)
+pyautogui.press('Enter') 
+
+# Define the folder path where you want to save the screenshots
+folder_path = r"C:\folderpath.jpg"
+
+# Create the folder if it doesn't exist
+if not os.path.exists(folder_path):
+    os.makedirs(folder_path)
+
+x = 0
+while x < 5:
+    screenshot = pyautogui.screenshot()
+    
+    # Format the current datetime to create a unique filename
+    filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".jpg"
+    
+    # Save the screenshot in the specified folder
+    screenshot.save(os.path.join(folder_path, filename))
+    time.sleep(2)
+    print("Screenshot saved successfully")
