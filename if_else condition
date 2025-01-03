@@ -1,0 +1,23 @@
+def get_value():
+    a = float(input("enter a number:"))
+    b = float(input("enter a number:"))
+    c = input("please enter+,-,*,/:") 
+    return a, b, c 
+
+
+def if_else(a,b,c):
+
+    if c == "+":
+        print(f"plus = {a+b}")
+    elif c == "-":
+        print(f"minus = {a-b}")
+    elif c == "*":
+        print(f"multiple = {a*b}")
+    elif c == "/":
+        print(f"divison = {a/b}")
+    else:
+        ("You have entered  a wrong value")
+    
+while True:
+    a, b , c = get_value()
+    if_else(a, b, c)
