@@ -1,0 +1,13 @@
+#this is int variable type 
+a = 1113
+#this is string variable type
+b = 'python is a most programing language in a world'
+#this is float variable type
+c =29.11
+
+
+
+
+print(a)
+print(b)
+print(c)
