@@ -1,0 +1,8 @@
+fruits="table","chair","bag","paper"
+
+(red,pink,yellow,white) = fruits
+
+print(red)
+print(pink)
+print(yellow)
+print(white)
