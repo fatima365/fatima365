@@ -1,0 +1,11 @@
+a = float(input("enter a salary:"))
+b = float(input("enter a project value"))
+if b >=20:
+     print(f"your salary is ={a+20000}")
+elif b >=15 and b <=20:
+     print(f"your salary is ={a+15000}")
+elif b >=10 and b <15:
+     print(f"your salary is ={a+10000}")
+else:
+     print(f"your  salary is ={a}")
+     
