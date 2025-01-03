@@ -1,0 +1,18 @@
+#this is a integer type 
+a=12
+#this is a string type
+b="my computer"
+#this is a float type
+c=11.3
+#this is aa complex type
+d=1j
+#this is a list type
+e=["computer","cpu","mouse"]
+
+
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
