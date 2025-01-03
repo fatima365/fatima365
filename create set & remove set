@@ -1,0 +1,13 @@
+#create set
+
+set ="a","b","c","d","e"
+
+print(set)
+
+#remove set
+
+thisitemset={"mango","apple","banana","grapics"}
+ 
+thisitemset.remove("apple")
+
+print(thisitemset)
