@@ -1,0 +1,23 @@
+#class
+class person:
+    Name="Fatima"
+    def age(self):
+        myage = 19
+        return myage
+obj2=person()
+name=obj2.Name
+age = obj2.age()
+print(name)
+print(age)
+
+#object
+class person:
+        Name = "Fatima"
+def age(self):
+     myage = 18
+     return myage
+obj2 = person()
+name =obj2.Name
+age = obj2.age()
+print(name)
+print(age)
